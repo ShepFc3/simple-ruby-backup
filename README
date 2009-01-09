@@ -1,0 +1,9 @@
+Steps to getting up and running:
+1. Download Ruby Backup Zip, Ruby Backup tarball, or from git.
+2. Extract the contents of the above package.
+3. Edit the backup_settings.yml.sample file and save it as backup_settings.yml
+4. run the script via “ruby ruby_backup.rb” or “./ruby_backup.rb”
+
+Future Features:
+1. Amazon S3 Sync
+2. Database dumps

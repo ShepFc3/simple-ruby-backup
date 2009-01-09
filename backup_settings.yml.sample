@@ -1,0 +1,11 @@
+environment:
+  rsync_path: '/usr/bin'
+backup:
+  # Relative path from rsync source folder.
+  # Seporate with ":" if using multiple excludes
+  excludes: 'Desktop:Library/Caches'
+  num_backups_to_keep: 5
+  rsync_folders:
+    # Add any number of folders you want to back up
+    # Source: Destination
+    '/Users/shep': '/Volumes/MacBackup'
